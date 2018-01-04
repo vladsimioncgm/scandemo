@@ -2,5 +2,10 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#3c3d93</color>
+    <color name="darkGray">#1b1919</color>
+    <color name="stroke_color">#ff00ff00</color>
+    <color name="fill_color">#5a00ff00</color>
+    <color name="cui_list_selector_normal">#00000000</color>
+    <color name="cui_list_selector_pressed">#FF4B5D70</color>
 </resources>
