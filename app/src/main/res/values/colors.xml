@@ -8,4 +8,6 @@
     <color name="fill_color">#5a00ff00</color>
     <color name="cui_list_selector_normal">#00000000</color>
     <color name="cui_list_selector_pressed">#FF4B5D70</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

@@ -1,4 +1,4 @@
-package test.scan.cgm.com.cgmscantestandroid.intsig;
+package test.scan.cgm.com.cgmscantestandroid.camscanner;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -38,7 +38,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.intsig.scanner.CommonUtil;
 import com.intsig.scanner.ScannerSDK;
 import com.intsig.view.ImageEditView;
 import com.intsig.view.ImageEditView.OnCornorChangeListener;

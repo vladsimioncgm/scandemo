@@ -1,4 +1,4 @@
-package test.scan.cgm.com.cgmscantestandroid.intsig;
+package test.scan.cgm.com.cgmscantestandroid.camscanner;
 
 /**
  * Created on 1/4/2018.

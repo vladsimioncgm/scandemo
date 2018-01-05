@@ -35,4 +35,7 @@
 
     <string name="cui_welcome_title">IntSig Information Intelligence Systiem</string>
     <string name="cui_welcome_module_title">ImageCrop&amp;EnhanceV1.0</string>
+
+    <string name="show_camera_dialog">Show camera dialog</string>
+
 </resources>

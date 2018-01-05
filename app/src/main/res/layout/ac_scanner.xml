@@ -88,7 +88,7 @@
         android:layout_height="match_parent"
         android:visibility="gone" >
 
-        <test.scan.cgm.com.cgmscantestandroid.intsig.CameraSurfaceView
+        <test.scan.cgm.com.cgmscantestandroid.camscanner.CameraSurfaceView
             android:id="@+id/cameraPreview"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

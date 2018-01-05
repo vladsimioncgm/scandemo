@@ -9,6 +9,9 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
     }
     buildTypes {
         release {
@@ -17,6 +20,10 @@ android {
         }
     }
 }
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
@@ -29,6 +36,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile files('libs/imagescannersdk_pr.jar')
     compile fileTree(dir: "$buildDir/native-libs", include: 'native-libs.jar')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+
+    compile "io.scanbot:sdk-package-1:1.26.5"
 }
 
 task nativeLibsToJar(type: Jar, description: 'create a jar archive of the native libs') {

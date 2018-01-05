@@ -21,7 +21,30 @@ allprojects {
         jcenter()
     }
 }
+allprojects {
+
+    repositories {
+        jcenter()
+        mavenCentral()
+
+        maven {
+            url 'http://nexus.scanbot.io/nexus/content/repositories/releases/'
+        }
+        maven {
+            url 'http://nexus.scanbot.io/nexus/content/repositories/snapshots/'
+        }
+    }
+
+    configurations.all {
+
+        // Hack to let Gradle pickup latest SNAPSHOTS
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+
+    }
+
+}
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+project.ext.scanbotSdkVersion = "1.26.5"

@@ -6,7 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import test.scan.cgm.com.cgmscantestandroid.intsig.IntsigScanActivity;
+import test.scan.cgm.com.cgmscantestandroid.camscanner.IntsigScanActivity;
+import test.scan.cgm.com.cgmscantestandroid.scanbot.ScanbotMainActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +22,15 @@ public class MainActivity extends AppCompatActivity {
         setScanBotButton();
     }
 
+
+
     private void setScanBotButton() {
+        findViewById(R.id.scanbot).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ScanbotMainActivity.class));
+            }
+        });
     }
 
     private void setIntsigScanButton() {
