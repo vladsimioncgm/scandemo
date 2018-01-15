@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="io.scanbot:sdk-package-1-1.26.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-package-1-1.26.5.aar/ffc322ca0e58ba179584748f6156f1a3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-package-1-1.26.5.aar/ffc322ca0e58ba179584748f6156f1a3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
