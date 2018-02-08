@@ -19,6 +19,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/scanbot"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +58,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="50dp"
             android:orientation="vertical">
 
             <FrameLayout
@@ -89,6 +89,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:id="@+id/openscanner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
